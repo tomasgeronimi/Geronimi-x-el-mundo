@@ -1,0 +1,24 @@
+/*EXTEND*/
+.img1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagenesjuntas {
+    @extend .img1;
+    justify-content: space-around;
+}
+
+.tipslistas {
+    padding-top: 25px;
+    margin-left: 20px;
+
+}
+
+.listadeblogs {
+    @extend .tipslistas;
+    padding-top: 15px;
+    margin-left: 22px;
+}
